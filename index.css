@@ -1,69 +1,101 @@
-body {
-    font-family: Arial, sans-serif;
+/* Сброс стилей */
+* {
     margin: 0;
     padding: 0;
-    color: black;
-    background-color: white;
+    box-sizing: border-box;
 }
 
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; /* Белый фон */
+    color: #000; /* Черный текст */
+    line-height: 1.6;
+}
+
+/* Контейнер для ограничивания ширины */
 .container {
     width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Заголовок */
 header {
-    background-color: #001F3F;
-    color: white;
-    padding: 15px 0;
+    background-color: #003366; /* Темно-синий */
+    padding: 20px 0;
+    color: #fff;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
 }
 
+/* Навигация */
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
 }
 
 nav ul li {
-    margin-left: 20px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
+    font-size: 1.2em;
+    text-transform: uppercase;
 }
 
-.hero {
+/* Основной раздел */
+.intro {
+    padding: 40px 0;
     text-align: center;
-    padding: 50px 20px;
-    background-color: #003366;
-    color: white;
+    background-color: #ffffff;
 }
 
-.hero .btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #0056b3;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
-.about, .services, .contacts {
+.intro p {
+    font-size: 1.2em;
+}
+
+/* Услуги */
+.services {
+    background-color: #f0f0f0;
+    padding: 40px 0;
     text-align: center;
-    padding: 50px 20px;
 }
 
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.services ul {
+    list-style-type: none;
+}
+
+.services ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Футер */
 footer {
-    background-color: #001F3F;
-    color: white;
+    background-color: #003366; /* Темно-синий */
+    padding: 20px 0;
     text-align: center;
-    padding: 10px 0;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1em;
 }
