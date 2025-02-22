@@ -26,10 +26,11 @@ a:hover {
 
 /* Шапка */
 header {
-  background-color: #003366;
+  background-color: #fff; /* Светлый фон */
   padding: 20px 0;
   text-align: center;
-  color: white;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header nav ul {
@@ -44,7 +45,7 @@ header nav li {
 
 header nav a {
   font-size: 18px;
-  color: white;
+  color: black;
 }
 
 /* Герой-блок */
