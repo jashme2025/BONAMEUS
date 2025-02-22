@@ -28,6 +28,7 @@ a:hover {
 header {
   background-color: #003366; /* Темно-синий фон */
   padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -42,15 +43,16 @@ nav li {
 
 nav a {
   font-size: 18px;
+  font-weight: bold;
 }
 
 /* Секции */
 section {
-  padding: 40px;
+  padding: 60px 20px;
   text-align: center;
 }
 
-#about, #services, #contact {
+#about {
   background-color: #f5f5dc; /* Бежевый фон */
 }
 
@@ -58,10 +60,13 @@ section {
   background-color: #fff; /* Белый фон */
 }
 
-/* Контакты */
-address {
-  font-style: normal;
+ul {
+  list-style-type: none;
+}
+
+ul li {
   font-size: 18px;
+  margin: 10px 0;
 }
 
 /* Подвал */
@@ -70,4 +75,5 @@ footer {
   color: white;
   text-align: center;
   padding: 20px;
+  font-size: 14px;
 }
