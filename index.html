@@ -1,69 +1,49 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: black;
-    background-color: white;
-}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юридическое бюро</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Юридическое бюро</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+    <section class="intro">
+        <div class="container">
+            <h2>Добро пожаловать в наше юридическое бюро</h2>
+            <p>Мы предоставляем профессиональные юридические услуги для бизнеса и частных лиц.</p>
+        </div>
+    </section>
 
-header {
-    background-color: #001F3F;
-    color: white;
-    padding: 15px 0;
-}
+    <section class="services">
+        <div class="container">
+            <h2>Наши услуги</h2>
+            <ul>
+                <li>Консультации по правовым вопросам</li>
+                <li>Составление договоров</li>
+                <li>Защита интересов в суде</li>
+                <li>Регистрация и ликвидация бизнеса</li>
+            </ul>
+        </div>
+    </section>
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background-color: #003366;
-    color: white;
-}
-
-.hero .btn {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #0056b3;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.about, .services, .contacts {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-footer {
-    background-color: #001F3F;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Юридическое бюро. Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
