@@ -7,26 +7,26 @@
 
 body {
   font-family: 'Cambria', serif;
-  background: linear-gradient(to bottom, #fff, #f5f5dc); /* белый и бежевый фон */
-  color: black; /* черный текст */
+  background-color: #fff; /* Белый фон */
+  color: black; /* Черный текст */
 }
 
 h1, h2 {
-  color: #003366; /* темно-синий */
+  color: #003366; /* Темно-синий */
 }
 
 a {
-  color: #003366; /* темно-синие ссылки */
+  color: #003366; /* Темно-синие ссылки */
   text-decoration: none;
 }
 
 a:hover {
-  color: #8B0000; /* темно-красный при наведении */
+  color: #8B0000; /* Темно-красный при наведении */
 }
 
 /* Шапка */
 header {
-  background-color: #003366; /* темно-синий фон */
+  background-color: #003366; /* Темно-синий фон */
   padding: 20px;
 }
 
@@ -50,16 +50,12 @@ section {
   text-align: center;
 }
 
-#about {
-  background-color: #f5f5dc; /* бежевый фон */
+#about, #services, #contact {
+  background-color: #f5f5dc; /* Бежевый фон */
 }
 
 #services {
-  background-color: #fff; /* белый фон */
-}
-
-#contact {
-  background-color: #f5f5dc; /* бежевый фон */
+  background-color: #fff; /* Белый фон */
 }
 
 /* Контакты */
@@ -70,7 +66,7 @@ address {
 
 /* Подвал */
 footer {
-  background-color: #003366; /* темно-синий */
+  background-color: #003366; /* Темно-синий */
   color: white;
   text-align: center;
   padding: 20px;
