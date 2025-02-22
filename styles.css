@@ -1,123 +1,77 @@
-/* Сброс стилей */
+/* Основные стили */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Общие стили */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4; /* Светлый фон */
-    color: #333; /* Темный текст для контраста */
-    line-height: 1.6;
+  font-family: 'Cambria', serif;
+  background: linear-gradient(to bottom, #fff, #f5f5dc); /* белый и бежевый фон */
+  color: black; /* черный текст */
 }
 
-/* Контейнер для ограничивания ширины */
-.container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
+h1, h2 {
+  color: #003366; /* темно-синий */
 }
 
-/* Заголовок */
+a {
+  color: #003366; /* темно-синие ссылки */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8B0000; /* темно-красный при наведении */
+}
+
+/* Шапка */
 header {
-    background-color: #003366; /* Темно-синий фон */
-    padding: 20px 0;
-    color: #fff;
+  background-color: #003366; /* темно-синий фон */
+  padding: 20px;
 }
 
-header h1 {
-    font-size: 2.5em;
-    text-align: center;
-}
-
-/* Навигация */
 nav ul {
-    list-style-type: none;
-    text-align: center;
-    margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
-nav ul li {
-    display: inline-block;
-    margin: 0 20px;
+nav li {
+  margin: 0 20px;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.1em;
-    text-transform: uppercase;
-    transition: color 0.3s;
+nav a {
+  font-size: 18px;
 }
 
-nav ul li a:hover {
-    color: #ff9900; /* Цвет текста при наведении */
+/* Секции */
+section {
+  padding: 40px;
+  text-align: center;
 }
 
-/* Основной раздел */
-.intro {
-    padding: 40px 0;
-    text-align: center;
-    background-color: #ffffff; /* Белый фон */
+#about {
+  background-color: #f5f5dc; /* бежевый фон */
 }
 
-.intro h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+#services {
+  background-color: #fff; /* белый фон */
 }
 
-.intro p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+#contact {
+  background-color: #f5f5dc; /* бежевый фон */
 }
 
-/* Услуги */
-.services {
-    background-color: #ffffff;
-    padding: 40px 0;
-    text-align: center;
+/* Контакты */
+address {
+  font-style: normal;
+  font-size: 18px;
 }
 
-.services h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-.services ul {
-    list-style-type: none;
-}
-
-.services ul li {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
-
-/* Футер */
+/* Подвал */
 footer {
-    background-color: #003366; /* Темно-синий фон */
-    padding: 20px 0;
-    text-align: center;
-    color: #fff;
-    margin-top: 40px;
-}
-
-footer p {
-    font-size: 1em;
-}
-
-/* Респонсивность */
-@media screen and (max-width: 768px) {
-    header h1 {
-        font-size: 2em;
-    }
-
-    nav ul li {
-        margin: 0 10px;
-    }
-
-    .services ul li {
-        font-size: 1em;
-    }
+  background-color: #003366; /* темно-синий */
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
