@@ -1,4 +1,4 @@
-/* Основные стили */
+/* Общие стили */
 * {
   margin: 0;
   padding: 0;
@@ -7,73 +7,82 @@
 
 body {
   font-family: 'Cambria', serif;
-  background-color: #fff; /* Белый фон */
-  color: black; /* Черный текст */
+  background-color: #f4f4f4;
+  color: black;
 }
 
-h1, h2 {
-  color: #003366; /* Темно-синий */
+h1, h2, h3 {
+  font-weight: bold;
 }
 
 a {
-  color: #003366; /* Темно-синие ссылки */
+  color: #003366;
   text-decoration: none;
 }
 
 a:hover {
-  color: #8B0000; /* Темно-красный при наведении */
+  color: #8B0000;
 }
 
 /* Шапка */
 header {
-  background-color: #003366; /* Темно-синий фон */
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #003366;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
 }
 
-nav ul {
+header nav ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
 
-nav li {
+header nav li {
   margin: 0 20px;
 }
 
-nav a {
+header nav a {
   font-size: 18px;
-  font-weight: bold;
+  color: white;
+}
+
+/* Герой-блок */
+.hero {
+  background: url('your-image-path.jpg') no-repeat center center/cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 20px;
 }
 
 /* Секции */
 section {
   padding: 60px 20px;
-  text-align: center;
-}
-
-#about {
-  background-color: #f5f5dc; /* Бежевый фон */
 }
 
 #services {
-  background-color: #fff; /* Белый фон */
+  background-color: #fff;
+  text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.service-item {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f5f5dc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-ul li {
-  font-size: 18px;
-  margin: 10px 0;
-}
-
-/* Подвал */
 footer {
-  background-color: #003366; /* Темно-синий */
+  background-color: #003366;
   color: white;
   text-align: center;
   padding: 20px;
-  font-size: 14px;
 }
